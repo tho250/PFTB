@@ -28,7 +28,7 @@ WORKDIR /app
 
 # Copy the executable JAR file that was built in the 'build' stage
 # Make sure the artifactId and version in pom.xml match this path
-COPY --from=build /app/target/pftb-0.0.1-SNAPSHOT.jar app.jar
+COPY --from=build /app/target/pftb-db-0.0.1-SNAPSHOT.jar app.jar
 
 # Expose the port that the Spring Boot application runs on (default is 8080)
 EXPOSE 8080
