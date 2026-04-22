@@ -11,7 +11,7 @@
     </parent>
 
     <groupId>com.example</groupId>
-    <artifactId>pftb</artifactId>
+    <artifactId>pftb-db</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>Personal Finance Tracker Backend</name>
 
